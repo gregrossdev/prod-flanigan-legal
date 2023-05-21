@@ -1,0 +1,367 @@
+@tailwind base;
+html {
+    @apply font-body antialiased;
+}
+
+@tailwind components;
+@layer components {
+    .sub-heading {
+        @apply font-semibold font-body text-sm uppercase tracking-widest text-primary md:text-lg lg:text-xl;
+    }
+
+    .btn {
+        @apply inline-block px-6 py-4 text-center font-body text-sm uppercase tracking-wide transition-colors duration-300 md:py-5 md:text-base;
+    }
+
+    .btn-primary {
+        @apply bg-primary text-white hover:bg-primary-lighter;
+    }
+
+    .btn-large {
+        @apply px-10 text-lg md:px-12 lg:py-5 xl:py-6;
+    }
+
+    /* === Nav === */
+    .ui-nav {
+        @apply z-20 w-full bg-grey-dark;
+    }
+
+    .ui-nav-wrapper {
+        @apply flex items-center justify-between py-8;
+    }
+
+    .ui-nav-logo-img {
+        @apply h-auto w-40;
+    }
+
+    .ui-nav-item-wrapper {
+        @apply flex items-center px-8;
+    }
+
+    .ui-nav-item {
+        @apply hidden px-4 lg:block xl:px-6;
+    }
+
+    .ui-nav-item-link {
+        @apply font-body uppercase text-white transition-colors hover:text-primary xl:text-lg;
+    }
+
+    .ui-nav-item-cta-wrapper {
+        @apply flex gap-4;
+    }
+
+    .ui-m-nav {
+        @apply mobile-menu absolute inset-0 z-100 block translate-x-full transform transition-transform lg:hidden;
+    }
+
+    .ui-m-nav-button {
+        @apply absolute inset-0 z-10 h-full w-full opacity-0;
+    }
+
+    .ui-m-nav-container {
+        @apply absolute inset-0 z-20 ml-auto w-3/4 overflow-hidden bg-black shadow-md sm:w-3/5 md:w-1/2;
+    }
+
+    .ui-m-nav-wrapper {
+        @apply flex flex-col px-8 pt-8 sm:px-10;
+    }
+
+    .ui-m-nav-item {
+        @apply pt-5;
+    }
+
+    .ui-m-nav-item-link {
+        @apply font-body uppercase text-white transition-colors hover:text-primary sm:text-lg;
+    }
+
+    .mobile-menu.active {
+        @apply translate-x-0;
+    }
+
+    /* === Footer === */
+    .ui-footer {
+        @apply bg-grey-dark;
+    }
+
+    .ui-footer-container {
+        @apply container py-16 md:py-20 lg:py-24;
+    }
+
+    .ui-footer-wrapper {
+        @apply flex w-full flex-wrap justify-between text-center md:text-left lg:flex-row;
+    }
+
+    .ui-footer-article-01 {
+        @apply md:w-3/5 md:pr-12 lg:w-3/10;
+    }
+
+    .ui-footer-article-02 {
+        @apply w-full pt-10 md:w-2/5 md:pt-0 lg:w-1/6;
+    }
+
+    .ui-footer-article-03 {
+        @apply w-full pt-10 md:w-3/5 lg:w-1/6 lg:pt-0;
+    }
+
+    .ui-footer-article-04 {
+        @apply w-full pt-10 md:w-2/5 lg:w-1/4 lg:pt-0;
+    }
+
+    .ui-article-heading {
+        @apply pb-3 font-body text-lg font-semibold uppercase text-primary;
+    }
+
+    .ui-article-item {
+        @apply pt-3;
+    }
+
+    .ui-article-item-link {
+        @apply font-body text-sm font-light text-white transition-colors hover:text-primary;
+    }
+
+
+
+
+
+
+    .form-input,
+    .form-textarea {
+        @apply w-full rounded-none border border-primary-light bg-white px-3 py-4 font-body text-black transition-colors focus:border-primary focus:outline-none focus:ring-primary;
+    }
+
+    .form-input-transparent,
+    .form-textarea-transparent {
+        @apply bg-transparent text-white;
+    }
+
+
+    .tab-item {
+        &.active {
+            @apply bg-primary text-white;
+        }
+    }
+
+    .tab-pane {
+        @apply pointer-events-none absolute opacity-0;
+
+        &.service-tab {
+            top: 2rem;
+        }
+
+        &.active {
+            top: 0;
+            @apply pointer-events-auto relative opacity-100;
+        }
+    }
+
+    .faq-answer {
+        @apply max-h-0;
+
+        &.active {
+            max-height: 999px;
+        }
+    }
+
+    .pg-banner {
+        @apply relative bg-cover bg-center bg-no-repeat;
+    }
+
+    .pg-banner-wrapper {
+        @apply relative z-20 bg-grey-darker py-20 text-center md:py-20;
+    }
+
+    .pg-banner-title {
+        @apply font-header text-2xl text-white sm:text-3xl md:text-4xl lg:text-5xl;
+    }
+
+    .pg-header {
+        @apply mx-auto text-center sm:w-5/6 md:w-full;
+    }
+
+    .pg-header-heading {
+        @apply font-header text-2xl text-black sm:text-3xl md:text-4xl lg:text-5xl;
+    }
+
+    .pg-header-description {
+        @apply pt-5 pb-4 font-body font-light leading-relaxed text-black;
+    }
+
+    .ui-practice-card {
+        @apply border border-grey-light text-center shadow-none transition-all hover:shadow-lg md:text-left rounded;
+    }
+
+    .ui-practice-card-heading {
+        @apply font-semibold pb-5 font-body text-xl uppercase text-primary md:text-2xl;
+    }
+
+    .ui-practice-card-description {
+        @apply font-body text-sm font-light leading-loose text-black;
+    }
+
+    .ui-about-card {
+        @apply text-center shadow-2xl rounded;
+    }
+
+    .ui-about-card-heading {
+        @apply pb-2 font-header text-lg text-primary;
+    }
+
+    .ui-value-card {
+        @apply flex flex-col pb-12 md:flex-row lg:px-8;
+    }
+
+    .ui-value-card-heading {
+        @apply font-semibold font-body text-base uppercase text-primary md:text-lg;
+    }
+
+    .ui-value-card-description {
+        @apply pt-2 font-body text-sm font-light leading-loose text-black;
+    }
+
+    .ui-faq {
+        @apply border-t border-r border-l border-primary last:border-b;
+    }
+
+    .ui-faq-question {
+        @apply flex cursor-pointer items-center justify-between px-5 py-5 text-primary transition-all md:px-8;
+    }
+
+    .ui-faq-item-header-heading {
+        @apply font-semibold font-body text-xs uppercase leading-tight md:text-lg;
+    }
+
+    /* === Sections === */
+    .about-section {
+        @apply container pt-4 md:py-20;
+    }
+
+    .about-section-inner {
+        @apply mx-auto flex w-full flex-col items-center justify-between sm:w-5/6 md:w-9/10 lg:flex-row xl:w-5/6;
+    }
+
+    .about-section-figure-wrapper {
+        @apply w-full shadow-2xl lg:w-1/2;
+    }
+
+    .about-section-figure {
+        /*@apply aspect-[4/3];*/
+    }
+
+    .about-section-img {
+        @apply object-cover object-top rounded;
+    }
+
+    .about-section-article {
+        @apply py-6 text-center md:pb-16 lg:ml-10 lg:w-1/2 lg:pb-0 lg:text-left xl:ml-16;
+    }
+
+    .about-section-article-heading {
+        @apply pt-2 font-header text-2xl text-black sm:text-3xl md:text-4xl xl:pt-5 xl:text-5xl xl:leading-tight;
+    }
+
+    .about-section-article-body {
+        @apply pt-8 pb-10 font-body font-light leading-loose text-black lg:pt-6;
+    }
+
+    .practice-section {
+        @apply container mx-auto w-full pb-12 text-center sm:w-5/6 md:w-9/10 md:pb-20 lg:text-left xl:w-5/6 xl:pb-24;
+    }
+
+    .practice-section-header {
+        @apply pb-6 text-center md:pb-10 xl:text-left;
+    }
+
+    .practice-section-sub-heading {
+        @apply font-semibold font-body text-sm uppercase tracking-widest text-primary md:text-lg;
+    }
+
+    .practice-section-heading {
+        @apply pt-2 font-header text-2xl text-black sm:text-3xl md:text-4xl xl:pt-5 xl:text-5xl;
+    }
+
+    .ui-tabs-header {
+        @apply mx-auto flex flex-wrap justify-center lg:w-5/6 xl:mx-0 xl:w-full xl:justify-start;
+    }
+
+    .ui-tabs-header-filter {
+        @apply font-semibold mb-5 w-1/2 cursor-pointer border-t border-b border-primary px-3 py-3 text-center font-body text-xs uppercase text-primary transition-colors hover:bg-primary hover:text-white md:w-1/3 md:text-base xl:w-1/5;
+    }
+
+    .ui-tabs-section {
+        @apply relative;
+    }
+
+    .ui-tabs-section-article {
+        @apply flex flex-col items-center justify-between bg-white pt-12 lg:flex-row;
+    }
+
+    .ui-tabs-section-article-header {
+        @apply mb-12 mr-0 pr-8 md:mb-16 lg:mb-0 lg:mr-12 lg:w-2/3 xl:mr-16 order-2 md:order-1;
+    }
+
+    .ui-tabs-section-article-heading {
+        @apply font-header text-xl text-black md:text-2xl;
+    }
+
+    .ui-tabs-section-article-body {
+        @apply py-5 font-body text-base font-light leading-loose text-black;
+    }
+
+    .ui-tabs-section-article-figure-wrapper {
+        @apply w-full pb-8 order-1 md:order-2 md:pb-0 lg:w-1/2;
+    }
+
+    .ui-tabs-section-article-figure {
+        @apply aspect-[4/3];
+    }
+
+    .ui-tabs-section-article-img {
+        @apply object-cover shadow-2xl rounded;
+    }
+
+    .ui-form-wrapper {
+        @apply grid grid-cols-1 gap-6 md:grid-cols-2;
+    }
+
+    .ui-form-input-wrapper {
+        @apply w-full;
+    }
+
+    .ui-form-label {
+        @apply relative block h-0 w-0 overflow-hidden;
+    }
+
+    .ui-form-input {
+        @apply form-input form-input-transparent;
+    }
+
+
+
+
+
+
+
+
+
+    /* === Third Party Override === */
+
+    .circles-text {
+        @apply relative font-semibold text-primary;
+    }
+
+    .circles-integer {
+        @apply absolute inset-x-0 top-1/5 mx-auto text-center text-5xl leading-normal;
+    }
+
+    .stat-cases .circles-integer:after {
+        content: "%";
+    }
+
+    .stat-clients .circles-integer:after {
+        content: "+";
+    }
+
+
+}
+
+@tailwind utilities;
