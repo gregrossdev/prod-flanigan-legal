@@ -1,3 +1,3 @@
-<x-layout>
-    
-</x-layout>
+<x-home.home>
+
+</x-home.home>
