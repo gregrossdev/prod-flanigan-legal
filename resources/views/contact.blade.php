@@ -117,7 +117,7 @@
                             Email
                         </p>
                         <p class="font-body text-sm font-light text-black">
-                            inquiry@thompsonlaw.com
+                            info@flaniganlegal.com
                         </p>
                     </div>
                 </div>
