@@ -121,7 +121,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center pb-8">
+                <!-- <div class="flex items-center pb-8">
         <span
         ><img
                 src="/assets/img/icons/icon-clock.svg"
@@ -141,7 +141,7 @@
                             Saturday - Sunday: 9:00AM - 4:00PM
                         </p>
                     </div>
-                </div>
+                </div> -->
             </article>
         </div>
     </section>
