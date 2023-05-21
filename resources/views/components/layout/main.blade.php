@@ -14,12 +14,12 @@
 
     <link
         rel="canonical"
-        href="https://thompson.tailwindmade.com/"
+        href="https://flaniganlegal.com/"
     />
 
     <meta
         property="og:url"
-        content="https://thompson.tailwindmade.com/"
+        content="https://flaniganlegal.com/"
     />
 
     <meta
@@ -30,9 +30,9 @@
     <link rel="icon" type="image/png" href="/assets/img/favicon.png"/>
     {{--    Social --}}
     <meta property="og:site_name" content="Thompson Template"/>
-    <meta property="og:image" content="https://thompson.tailwindmade.com/assets/img/social.jpg"/>
+    <meta property="og:image" content="https://flaniganlegal.com/assets/img/social.jpg"/>
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:site" content="@tailwindmade"/>
+    <!-- <meta name="twitter:site" content="@tailwindmade"/> -->
 
     <link
         crossorigin="crossorigin"
