@@ -187,7 +187,11 @@ html {
     }
 
     .ui-practice-card {
-        @apply border border-grey-light text-center shadow-none transition-all hover:shadow-lg md:text-left rounded;
+        @apply border border-grey-light text-center shadow-none transition-all hover:shadow-lg md:text-left;
+    }
+
+    .ui-practice-card-img {
+        @apply w-full h-60;
     }
 
     .ui-practice-card-heading {
@@ -252,7 +256,7 @@ html {
     }
 
     .about-section-img {
-        @apply object-cover object-top rounded;
+        @apply object-cover object-top;
     }
 
     .about-section-article {
@@ -320,7 +324,7 @@ html {
     }
 
     .ui-tabs-section-article-img {
-        @apply object-cover shadow-2xl rounded;
+        @apply object-cover shadow-2xl;
     }
 
     .ui-form-wrapper {

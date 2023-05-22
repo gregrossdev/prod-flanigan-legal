@@ -29,7 +29,7 @@ module.exports = {
             "grey-dark": "#2E2E2E",
             "grey-darker": "rgba(56, 56, 56, 0.60)",
             "grey-darkest": "rgba(56, 56, 56, 0.70)",
-            "grey-light": "#595959",
+            "grey-light": "#bab6b6",
             "grey-blur": "rgba(56, 56, 56, 0.40)",
             white: "#ffffff",
             black: "#000000"
