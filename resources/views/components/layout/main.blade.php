@@ -27,7 +27,7 @@
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     />
 
-    <link rel="icon" type="image/png" href="/assets/img/favicon.png"/>
+    <link rel="icon" type="image/png" href="/assets/img/favicon-01.png"/>
     {{--    Social --}}
     <meta property="og:site_name" content="Thompson Template"/>
     <meta property="og:image" content="https://flaniganlegal.com/assets/img/social.jpg"/>
