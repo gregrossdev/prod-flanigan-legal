@@ -158,7 +158,7 @@ html {
         @apply max-h-0;
 
         &.active {
-            max-height: 999px;
+            max-height: 1600px;
         }
     }
 
