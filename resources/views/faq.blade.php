@@ -181,8 +181,7 @@
                                         attorneys’ fees are paid. Contingency fees are open to negotiation between
                                         attorney and client; however, in certain types of cases (e.g., claims
                                         against the Federal Government) maximum fee limits are established by law.
-                                        Contingency fee agreements must be in writing signed by both the attorney
-                                        and the client.
+                        
                                     </p>
                                 </div>
                             </div>
@@ -236,7 +235,7 @@
                                 <div class="px-5 py-5 md:px-8">
                                     <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
                                         We prepare every case as if it will be tried to verdict in court. Some cases
-                                        resolve without litigation. Other cases are not. Our experience is that
+                                        resolve without litigation. Other cases do not. Our experience is that
                                         often to get the insurance available a lawsuit needs filed. If we have to
                                         file a lawsuit, then you may have to give a deposition, attend a mediation
                                         or court hearings. You may eventually have to testify at trial. We will

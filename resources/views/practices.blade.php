@@ -102,7 +102,12 @@
                     src="{{asset('/assets/img/pedestrian.jpg')}}"
                     alt="practice area image"
                 >
-                    Each year, defective products cause injury to hundreds of thousands of people. It is illegal to make or sell an unreasonably dangerous product in West Virginia.  When a consumer is injured at no fault of their own, the responsibility falls on the company that designed, manufactured, and sold the product.   If you have been injured as a result of a defective product, a West Virginia defective product attorney can help you understand the process of seeking compensation through a product liability claim.
+                According to the National Highway Traffic Safety Administration (NHTSA), there are more than 6,000 people killed each year in pedestrian accidents. The number of pedestrian deaths in West Virginia doubled, from 18 in 2020 to an estimated 36 in 2021.  
+
+                <a href="https://www.herald-dispatch.com/news/pedestrian-deaths-increase-in-west-virginia-hit-40-year-high-in-us/article_81183379-0644-5c0b-9987-490fc9a3bf59.html 
+">https://www.herald-dispatch.com/news/pedestrian-deaths-increase-in-west-virginia-hit-40-year-high-in-us/article_81183379-0644-5c0b-9987-490fc9a3bf59.html 
+</a>
+
 
                 </x-ui-practice-card>
 

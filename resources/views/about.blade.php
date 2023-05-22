@@ -24,32 +24,6 @@
             </div>
         </section>
 
-{{--        --}}{{-- Paralegals --}}
-{{--        <section class="py-12">--}}
-{{--            <x-pg-header heading="Our Talented Legal Staff"/>--}}
-{{--            <div class="grid grid-cols-1 gap-10 pt-5 md:grid-cols-2 lg:grid-cols-3 md:pt-8 lg:pt-12">--}}
-
-{{--                <x-ui-about-card--}}
-{{--                    person="George N. Sidiropolis"--}}
-{{--                    src="https://source.unsplash.com/1000x640/?sexy"--}}
-{{--                    alt="staff member picture"--}}
-{{--                />--}}
-
-{{--                <x-ui-about-card--}}
-{{--                    person="George N. Sidiropolis"--}}
-{{--                    src="https://source.unsplash.com/1000x640/?woman"--}}
-{{--                    alt="staff member picture"--}}
-{{--                />--}}
-
-{{--                <x-ui-about-card--}}
-{{--                    person="George N. Sidiropolis"--}}
-{{--                    src="https://source.unsplash.com/1000x640/?girl"--}}
-{{--                    alt="staff member picture"--}}
-{{--                />--}}
-
-{{--            </div>--}}
-{{--        </section>--}}
-
         {{-- Values --}}
         <section class="py-12">
             <x-pg-header heading="Core Values" />
@@ -81,8 +55,8 @@
                     src="{{asset('/assets/img/icons/icon-client.svg')}}"
                 >
                     Our business model focuses on quality not quantity. Fewer cases means more time for our
-                    clients. Our clients deserve personal attention. Fighting for best possible outcome for
-                    each of out clients demands that we incredibly selective in the kinds of cases we agree to take. Because we limit the number of cases we accept, our attorneys and staff are able to focus their efforts on you and your case and put in the time and resources it takes to achieve the best possible result.
+                    clients. Our clients deserve personal attention. Fighting for the best possible outcome for
+                    each of our clients demands that we incredibly our selective in the kinds of cases we agree to take. Because we limit the number of cases we accept, our attorneys and staff are able to focus their efforts on you and your case and put in the time and resources it takes to achieve the best possible result.
                 </x-ui-value-card>
 
                 <x-ui-value-card

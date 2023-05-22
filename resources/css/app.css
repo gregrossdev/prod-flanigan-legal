@@ -223,7 +223,7 @@ html {
     }
 
     .ui-faq-question {
-        @apply flex cursor-pointer items-center justify-between px-5 py-5 text-primary transition-all md:px-8;
+        @apply flex cursor-pointer items-center justify-between px-5 py-5 text-primary text-sm md:text-base transition-all md:px-8;
     }
 
     .ui-faq-item-header-heading {
