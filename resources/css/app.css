@@ -88,11 +88,11 @@ html {
     }
 
     .ui-footer-wrapper {
-        @apply flex w-full flex-wrap justify-between text-center md:text-left lg:flex-row;
+        @apply flex flex-col items-center w-full justify-between text-center md:text-left lg:flex-row;
     }
 
     .ui-footer-article-01 {
-        @apply md:w-3/5 md:pr-12 lg:w-3/10;
+        @apply md:w-3/5 md:pr-12 lg:w-3/10 flex items-center;
     }
 
     .ui-footer-article-02 {

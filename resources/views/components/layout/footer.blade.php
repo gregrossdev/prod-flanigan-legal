@@ -3,7 +3,7 @@
         <div class="ui-footer-wrapper">
             <article class="ui-footer-article-01">
                 <a href="/">
-                    <img src="/assets/img/logo.svg" class="mx-auto h-auto w-64 md:mx-0" alt="logo in footer" />
+                    <img src="/assets/img/logo.svg" class="mx-auto h-auto w-full md:mx-0" alt="logo in footer" />
                 </a>
 {{--                <p class="pt-8 font-body text-sm font-light leading-loose text-white">--}}
 {{--                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed malesuada odioeu accumsan nunc.--}}
@@ -95,13 +95,13 @@
                 <div class="flex flex-col gap-4">
                     <a
                         href="tel:+13042337766"
-                        class="btn btn-primary btn-primary-light hidden lg:block"
+                        class="btn btn-primary btn-primary-light lg:block"
                     >
                         304-233-7766
                     </a>
                     <a
                         href="/contact"
-                        class="btn btn-primary hidden lg:block"
+                        class="btn btn-primary lg:block"
                     >Free consultation</a
                     >
                 </div>
