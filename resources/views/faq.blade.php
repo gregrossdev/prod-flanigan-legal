@@ -36,14 +36,14 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-1' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         An attorney will advocate for you against the insurance companies, and can
                                         help maximize your recovery. Insurance companies know this is fact. For
                                         example, management consulting firm McKinsey and Company and Allstate have
                                         conspired to reduce attorney representation because attorney represented
                                         claims settled on average five times more than those without.
                                     </p>
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         Although you can try to handle your claim on your own, there is a serious
                                         risk the insurance company will be protecting its own interests, not yours.
                                         An attorney can help you navigate the many different insurance coverages
@@ -74,7 +74,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-2' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         No – absolutely not. Your decision to hire an attorney may be one of the
                                         most important decisions you will make in your life. It should not be taken
                                         lightly, and you should be very careful in choosing a lawyer.
@@ -102,7 +102,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-3' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         An initial appointment with an attorney at Flanigan Legal, PLLC to discuss
                                         the facts of a potential case is free. You can also ask any questions you
                                         may have regarding your case. There is no obligation to choose our firm. In
@@ -134,7 +134,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-4' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         We accept cases on a contingent fee basis, which means that we collect no
                                         attorney’s fee unless we succeed in recovering damages for you through
                                         settlement or trial. We also advance all costs and expenses involved in the
@@ -162,7 +162,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-5' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         A contingency fee is a legal fee that is dependent upon the successful
                                         outcome of a claim. We represent clients on a contingent fee basis. If we
                                         recover money for you, our fee is a percentage of the amount recovered. The
@@ -170,7 +170,7 @@
                                         resolved and the total amount recovered. If we do not recover any money for
                                         your, then you owe us nothing.
                                     </p>
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         We believe in our clients causes and spend our own money to finance our
                                         clients’ cases. We don’t make money unless our clients make money. One of
                                         the reasons that Flanigan Legal, PLLC utilizes contingency fee agreements is
@@ -204,7 +204,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-6' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         You are not responsible for preparing your case for trial. It is your
                                         responsibility to provide our office with information that you have
                                         available to you, but you will not have to do work to prepare your case.
@@ -233,7 +233,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-7' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         We prepare every case as if it will be tried to verdict in court. Some cases
                                         resolve without litigation. Other cases do not. Our experience is that
                                         often to get the insurance available a lawsuit needs filed. If we have to
@@ -263,7 +263,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-8' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         Not necessarily. Many people settle their claims in negotiation, but you
                                         need a strong legal team to ensure you receive a fair settlement. If their
                                         offers don’t meet your needs, you and your attorney may decide to file a
@@ -293,7 +293,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-9' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         Our goal is to resolve every case as quickly as possible. It is impossible
                                         to predict how long any particular case will take to resolve. Every case is
                                         different. However, we can give you a more accurate estimate of how long
@@ -321,7 +321,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-10' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         Different rules govern different types of cases. The statute of limitations
                                         (time limit for filing a claim in court) in West Virginia for a negligence
                                         claim is two years. The limitations period starts to run when the cause of
@@ -331,12 +331,12 @@
                                         have engaged in conduct that breached that duty and that the conduct of that
                                         entity has a causal relation to the injury.
                                     </p>
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         The statute of limitations for filing a lawsuit is sometimes complicated and
                                         you should consult with a West Virginia lawyer immediately if you are
                                         concerned about that you are approaching the time limit for filing a claim.
                                     </p>
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         To illustrate this point, in West Virginia, the statute of limitations for
                                         breach of a written contract is ten years. The time limit for breach of an
                                         oral contract is five years. The limitations period starts to run when the
@@ -344,12 +344,12 @@
                                         discovered. However, the limitations period for a sales contract under the
                                         Uniform Commercial Code is four years.
                                     </p>
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         The statue of limitations for an insurance bad faith case in West Virginia
                                         is one year for a bad faith claim based on a common law theory or a
                                         statutory theory under the West Virginia Unfair Trade Practices Act.
                                     </p>
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         It is impossible in this space to set forth the rules that apply in all
                                         cases. Where injury does not manifest itself for many years after an event
                                         or exposure (such as during a period of latency after exposure to harmful
@@ -380,7 +380,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-11' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         Although we know that this is an emotionally trying time for your family to
                                         go through, it is important to pursue legal action in a timely manner. In
                                         West Virginia, there is a two-year statute of limitations for wrongful death
@@ -391,7 +391,7 @@
                                         a duty to act with due care; and (3) the entity's conduct has a causal
                                         relation to the injury.
                                     <p/>
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         We understand that dealing with the death of a family member is incredibly
                                         difficult emotionally and financially. We promise your case will be handled
                                         with compassion and integrity. It is beneficial for surviving parties to
@@ -421,7 +421,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-12' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         In West Virginia, the damages a wrongful death claimant is entitled to as
                                         the surviving family member or dependent include loss of care, love, and
                                         protection, pain and suffering, loss of companionship, medical care,
@@ -454,7 +454,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-13' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         In West Virginia, only the deceased’s personal representative (also referred
                                         to as an estate administrator/executor appointed by the court) can file the
                                         wrongful death claim. It is recommended that families contact our wrongful
@@ -483,7 +483,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-14' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         In West Virginia, a wrongful death lawsuit seeks damages when one person's
                                         death is another party's fault. This horrific scenario can arise in cases
                                         involving motor vehicle crashes, medical malpractice, intentional acts
@@ -513,7 +513,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-15' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         Call 911. Stay at the scene of the accident. Provide law enforcement the
                                         information they request. If it is safe, you or another occupant of the
                                         automobile should photograph all of the vehicles involved in the crash.
@@ -544,7 +544,7 @@
                             <div class="faq-answer overflow-hidden border-primary transition-all"
                                  :class="{ 'active': activeFAQ === 'faq-16' }">
                                 <div class="px-5 py-5 md:px-8">
-                                    <p class="text-left font-body text-md font-light leading-loose text-black pb-5">
+                                    <p class="ui-faq-item-body">
                                         You should seek medical care as soon as possible. Delays in treatment can be
                                         detrimental to your health and can adversely affect your recovery.
                                         Sometimes, injuries are not immediately apparent. If your injuries are

@@ -230,6 +230,10 @@ html {
         @apply font-semibold font-body text-xs uppercase leading-tight md:text-lg;
     }
 
+    .ui-faq-item-body {
+        @apply text-left font-body text-sm md:text-base font-light leading-loose text-black pb-5;
+    }
+
     /* === Sections === */
     .about-section {
         @apply container pt-4 md:py-20;
