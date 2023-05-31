@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\PracticeResource\Pages;
+namespace App\Filament\Resources\ValueResource\Pages;
 
-use App\Filament\Resources\PracticeResource;
+use App\Filament\Resources\ValueResource;
 use Filament\Pages\Actions;
 use Filament\Resources\Pages\CreateRecord;
 
-class CreatePractice extends CreateRecord
+class CreateValue extends CreateRecord
 {
-    protected static string $resource = PracticeResource::class;
+    protected static string $resource = ValueResource::class;
 
     protected function getRedirectUrl(): string
     {

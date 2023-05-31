@@ -19,7 +19,8 @@
             <p class="pt-3 font-body text-sm font-light text-white">
                 Call us at (304) 233-7766 or fill out the form below. Our lawyers are here to help.
             </p>
-            <form>
+            <form method="post" action="{{route('contact.send')}}" enctype="multipart/form-data">
+                @csrf
                 <section class="ui-form-wrapper pt-8 md:pt-10 lg:pt-8 xl:pt-10">
                     <div class="ui-form-input-wrapper">
                         <label
