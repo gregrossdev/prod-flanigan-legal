@@ -300,11 +300,11 @@ html {
     }
 
     .ui-tabs-section-article {
-        @apply flex flex-col items-center justify-between bg-white pt-12 lg:flex-row;
+        @apply flex flex-col items-center justify-between bg-white pt-12 lg:flex-row ;
     }
 
     .ui-tabs-section-article-header {
-        @apply mb-12 mr-0 pr-8 md:mb-16 lg:mb-0 lg:mr-12 lg:w-2/3 xl:mr-16 order-2 md:order-1;
+        @apply mb-12 mr-0 pr-8 md:mb-16 lg:mb-0 lg:mr-12 lg:w-2/3 xl:mr-16 order-2 lg:order-1;
     }
 
     .ui-tabs-section-article-heading {
@@ -316,7 +316,7 @@ html {
     }
 
     .ui-tabs-section-article-figure-wrapper {
-        @apply w-full pb-8 order-1 md:order-2 md:pb-0 lg:w-1/2;
+        @apply w-full pb-8 order-1 lg:order-2 md:pb-0 lg:w-1/2;
     }
 
     .ui-tabs-section-article-figure {
