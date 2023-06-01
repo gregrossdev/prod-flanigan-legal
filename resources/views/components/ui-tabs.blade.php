@@ -386,7 +386,7 @@
                 <p
                     class="ui-tabs-section-article-body"
                 >
-                    According to the National Highway Traffic Safety Administration (NHTSA), there are more than 6,000 people killed each year in pedestrian accidents. The number of pedestrian deaths in West Virginia doubled, from 18 in 2020 to an estimated 36 in 2021. https://www.herald-dispatch.com/news/pedestrian-deaths-increase-in-west-virginia-hit-40-year-high-in-us/article_81183379-0644-5c0b-9987-490fc9a3bf59.html
+                    According to the National Highway Traffic Safety Administration (NHTSA), there are more than 6,000 people killed each year in pedestrian accidents. The number of pedestrian deaths in West Virginia doubled, from 18 in 2020 to an estimated 36 in 2021.
                 </p>
 
             </header>
