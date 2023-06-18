@@ -1,6 +1,6 @@
 <x-layout.main>
 
-    <x-pg-banner title="Contact" />
+    <x-pg-banner title="Contact"/>
 
 
     <section class="container my-16 md:my-20 lg:my-24">
@@ -17,7 +17,7 @@
                 <p class="pt-6 font-body text-sm font-light text-black">
                     Feel free to ask any questions over the phone, or get in touch via our contact form below.
                 </p>
-                <x-ui-contact-form />
+                <x-ui-contact-form/>
             </article>
             <article class="mx-auto sm:w-3/4 md:w-9/10 lg:mx-0 lg:w-2/5">
                 <div class="flex items-center pb-12">
@@ -44,8 +44,9 @@
                         <p class="font-body text-sm font-light text-black">
                             <a
                                 href="tel:+13042337766"
-                                class="btn btn-primary hidden lg:block"
-                            >304-233-7766</a
+                                class="btn btn-primary lg:block"
+                            >
+                                304-233-7766</a>
                         </p>
                     </div>
                 </div>
@@ -63,9 +64,9 @@
                         >
                             Email
                         </p>
-                        <p class="font-body text-sm font-light text-black">
+                        <a href="mailto:info@flaniganlegal.com" class="font-body text-sm font-light text-black">
                             info@flaniganlegal.com
-                        </p>
+                        </a>
                     </div>
                 </div>
                 <!-- <div class="flex items-center pb-8">
@@ -93,107 +94,103 @@
         </div>
     </section>
 
-{{--    <section class="relative bg-grey">--}}
-{{--        <div class="container flex flex-col items-center lg:flex-row">--}}
-{{--            <div class="py-16 sm:w-3/4 md:w-9/10 md:py-24 lg:w-3/5 lg:py-32">--}}
-{{--                <div class="text-center md:text-left lg:pr-24 xl:pr-32">--}}
-{{--                    <p class="font-header text-2xl text-white md:text-4xl lg:text-5xl">--}}
-{{--                        Our Branches--}}
-{{--                    </p>--}}
-{{--                    <div class="mt-8 flex flex-wrap md:mt-12">--}}
+    {{--    <section class="relative bg-grey">--}}
+    {{--        <div class="container flex flex-col items-center lg:flex-row">--}}
+    {{--            <div class="py-16 sm:w-3/4 md:w-9/10 md:py-24 lg:w-3/5 lg:py-32">--}}
+    {{--                <div class="text-center md:text-left lg:pr-24 xl:pr-32">--}}
+    {{--                    <p class="font-header text-2xl text-white md:text-4xl lg:text-5xl">--}}
+    {{--                        Our Branches--}}
+    {{--                    </p>--}}
+    {{--                    <div class="mt-8 flex flex-wrap md:mt-12">--}}
 
-{{--                        <div--}}
-{{--                            class="group w-full border-t border-r border-l border-primary transition-colors last:border-b hover:bg-primary md:w-1/2 md:border"--}}
-{{--                        >--}}
-{{--                            <div class="px-5 py-8 md:px-8 lg:px-10 lg:py-10">--}}
-{{--                                <h4--}}
-{{--                                    class="font-semibold pb-3 font-body text-base uppercase text-primary transition-colors group-hover:text-white md:text-lg"--}}
-{{--                                >--}}
-{{--                                    PRINCIPAL BRANCH--}}
-{{--                                </h4>--}}
-{{--                                <p class="font-body text-sm font-light text-white">--}}
-{{--                                    109 Fieldcrest Road--}}
-{{--                                </p>--}}
-{{--                                <p class="font-body text-sm font-light text-white">--}}
-{{--                                    Long Island City, NY 11101--}}
-{{--                                </p>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
+    {{--                        <div--}}
+    {{--                            class="group w-full border-t border-r border-l border-primary transition-colors last:border-b hover:bg-primary md:w-1/2 md:border"--}}
+    {{--                        >--}}
+    {{--                            <div class="px-5 py-8 md:px-8 lg:px-10 lg:py-10">--}}
+    {{--                                <h4--}}
+    {{--                                    class="font-semibold pb-3 font-body text-base uppercase text-primary transition-colors group-hover:text-white md:text-lg"--}}
+    {{--                                >--}}
+    {{--                                    PRINCIPAL BRANCH--}}
+    {{--                                </h4>--}}
+    {{--                                <p class="font-body text-sm font-light text-white">--}}
+    {{--                                    109 Fieldcrest Road--}}
+    {{--                                </p>--}}
+    {{--                                <p class="font-body text-sm font-light text-white">--}}
+    {{--                                    Long Island City, NY 11101--}}
+    {{--                                </p>--}}
+    {{--                            </div>--}}
+    {{--                        </div>--}}
 
-{{--                        <div--}}
-{{--                            class="group w-full border-t border-r border-l border-primary transition-colors last:border-b hover:bg-primary md:w-1/2 md:border"--}}
-{{--                        >--}}
-{{--                            <div class="px-5 py-8 md:px-8 lg:px-10 lg:py-10">--}}
-{{--                                <h4--}}
-{{--                                    class="font-semibold pb-3 font-body text-base uppercase text-primary transition-colors group-hover:text-white md:text-lg"--}}
-{{--                                >--}}
-{{--                                    TEXAS BRANCH--}}
-{{--                                </h4>--}}
-{{--                                <p class="font-body text-sm font-light text-white">--}}
-{{--                                    3006 Werninger Street--}}
-{{--                                </p>--}}
-{{--                                <p class="font-body text-sm font-light text-white">--}}
-{{--                                    3006 Werninger Street--}}
-{{--                                </p>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
+    {{--                        <div--}}
+    {{--                            class="group w-full border-t border-r border-l border-primary transition-colors last:border-b hover:bg-primary md:w-1/2 md:border"--}}
+    {{--                        >--}}
+    {{--                            <div class="px-5 py-8 md:px-8 lg:px-10 lg:py-10">--}}
+    {{--                                <h4--}}
+    {{--                                    class="font-semibold pb-3 font-body text-base uppercase text-primary transition-colors group-hover:text-white md:text-lg"--}}
+    {{--                                >--}}
+    {{--                                    TEXAS BRANCH--}}
+    {{--                                </h4>--}}
+    {{--                                <p class="font-body text-sm font-light text-white">--}}
+    {{--                                    3006 Werninger Street--}}
+    {{--                                </p>--}}
+    {{--                                <p class="font-body text-sm font-light text-white">--}}
+    {{--                                    3006 Werninger Street--}}
+    {{--                                </p>--}}
+    {{--                            </div>--}}
+    {{--                        </div>--}}
 
-{{--                        <div--}}
-{{--                            class="group w-full border-t border-r border-l border-primary transition-colors last:border-b hover:bg-primary md:w-1/2 md:border"--}}
-{{--                        >--}}
-{{--                            <div class="px-5 py-8 md:px-8 lg:px-10 lg:py-10">--}}
-{{--                                <h4--}}
-{{--                                    class="font-semibold pb-3 font-body text-base uppercase text-primary transition-colors group-hover:text-white md:text-lg"--}}
-{{--                                >--}}
-{{--                                    MISSISSIPPI BRANCH--}}
-{{--                                </h4>--}}
-{{--                                <p class="font-body text-sm font-light text-white">--}}
-{{--                                    1024 Oxford Court--}}
-{{--                                </p>--}}
-{{--                                <p class="font-body text-sm font-light text-white">--}}
-{{--                                    Greenwood, MS 38930--}}
-{{--                                </p>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
+    {{--                        <div--}}
+    {{--                            class="group w-full border-t border-r border-l border-primary transition-colors last:border-b hover:bg-primary md:w-1/2 md:border"--}}
+    {{--                        >--}}
+    {{--                            <div class="px-5 py-8 md:px-8 lg:px-10 lg:py-10">--}}
+    {{--                                <h4--}}
+    {{--                                    class="font-semibold pb-3 font-body text-base uppercase text-primary transition-colors group-hover:text-white md:text-lg"--}}
+    {{--                                >--}}
+    {{--                                    MISSISSIPPI BRANCH--}}
+    {{--                                </h4>--}}
+    {{--                                <p class="font-body text-sm font-light text-white">--}}
+    {{--                                    1024 Oxford Court--}}
+    {{--                                </p>--}}
+    {{--                                <p class="font-body text-sm font-light text-white">--}}
+    {{--                                    Greenwood, MS 38930--}}
+    {{--                                </p>--}}
+    {{--                            </div>--}}
+    {{--                        </div>--}}
 
-{{--                        <div--}}
-{{--                            class="group w-full border-t border-r border-l border-primary transition-colors last:border-b hover:bg-primary md:w-1/2 md:border"--}}
-{{--                        >--}}
-{{--                            <div class="px-5 py-8 md:px-8 lg:px-10 lg:py-10">--}}
-{{--                                <h4--}}
-{{--                                    class="font-semibold pb-3 font-body text-base uppercase text-primary transition-colors group-hover:text-white md:text-lg"--}}
-{{--                                >--}}
-{{--                                    CALIFORNIA BRANCH--}}
-{{--                                </h4>--}}
-{{--                                <p class="font-body text-sm font-light text-white">--}}
-{{--                                    11984 Locust View Drive--}}
-{{--                                </p>--}}
-{{--                                <p class="font-body text-sm font-light text-white">--}}
-{{--                                    Larkspur, CA 94939--}}
-{{--                                </p>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
+    {{--                        <div--}}
+    {{--                            class="group w-full border-t border-r border-l border-primary transition-colors last:border-b hover:bg-primary md:w-1/2 md:border"--}}
+    {{--                        >--}}
+    {{--                            <div class="px-5 py-8 md:px-8 lg:px-10 lg:py-10">--}}
+    {{--                                <h4--}}
+    {{--                                    class="font-semibold pb-3 font-body text-base uppercase text-primary transition-colors group-hover:text-white md:text-lg"--}}
+    {{--                                >--}}
+    {{--                                    CALIFORNIA BRANCH--}}
+    {{--                                </h4>--}}
+    {{--                                <p class="font-body text-sm font-light text-white">--}}
+    {{--                                    11984 Locust View Drive--}}
+    {{--                                </p>--}}
+    {{--                                <p class="font-body text-sm font-light text-white">--}}
+    {{--                                    Larkspur, CA 94939--}}
+    {{--                                </p>--}}
+    {{--                            </div>--}}
+    {{--                        </div>--}}
 
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--        <div--}}
-{{--            class="inset-y-0 right-0 z-50 h-88 w-full overflow-hidden md:h-auto lg:absolute lg:w-2/5"--}}
-{{--        >--}}
-{{--            <iframe--}}
-{{--                src="https://snazzymaps.com/embed/158465"--}}
-{{--                width="100%"--}}
-{{--                height="690px"--}}
-{{--                style="border: none"--}}
-{{--                title="Main office map"--}}
-{{--            ></iframe>--}}
-{{--        </div>--}}
-{{--    </section>--}}
-
-
-
-
+    {{--                    </div>--}}
+    {{--                </div>--}}
+    {{--            </div>--}}
+    {{--        </div>--}}
+    {{--        <div--}}
+    {{--            class="inset-y-0 right-0 z-50 h-88 w-full overflow-hidden md:h-auto lg:absolute lg:w-2/5"--}}
+    {{--        >--}}
+    {{--            <iframe--}}
+    {{--                src="https://snazzymaps.com/embed/158465"--}}
+    {{--                width="100%"--}}
+    {{--                height="690px"--}}
+    {{--                style="border: none"--}}
+    {{--                title="Main office map"--}}
+    {{--            ></iframe>--}}
+    {{--        </div>--}}
+    {{--    </section>--}}
 
 
 </x-layout.main>

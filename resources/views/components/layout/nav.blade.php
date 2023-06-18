@@ -62,7 +62,7 @@
                 <li class="ui-nav-item">
                     <a
                         href="tel:+13042337766"
-                        class="btn btn-primary btn-primary-light hidden lg:block"
+                        class="btn btn-primary btn-primary-light lg:block"
                     >
                         304-233-7766
                     </a>
