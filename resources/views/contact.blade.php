@@ -69,6 +69,28 @@
                         </a>
                     </div>
                 </div>
+                <div class="flex items-center pb-8">
+                    <div>
+                        <img
+                            src="/assets/img/icons/icon-client.svg"
+                            alt="location icon"
+                            class="h-auto w-20"
+                        />
+                    </div>
+                    <div class="pl-8 md:pl-10">
+                        <p
+                            class="font-semibold font-body text-base uppercase text-primary md:text-lg"
+                        >
+                            Location
+                        </p>
+                        <article>
+                            <h3>1140 Main Street</h3>
+                            <h3>4th Floor</h3>
+                            <h3>Wheeling,WV 26003</h3>
+                        </article>
+                        
+                    </div>
+                </div>
                 <!-- <div class="flex items-center pb-8">
         <span
         ><img
