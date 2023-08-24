@@ -84,9 +84,8 @@
                             Location
                         </p>
                         <article>
-                            <h3>1140 Main Street</h3>
-                            <h3>4th Floor</h3>
-                            <h3>Wheeling,WV 26003</h3>
+                            <h3>1140 Main St 4th Floor</h3>
+                            <p>Wheeling,WV 26003</p>
                         </article>
                         
                     </div>
