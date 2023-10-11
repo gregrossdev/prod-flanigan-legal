@@ -1,3 +1,4 @@
+
 <form method="post" action="{{route('contact.send')}}" enctype="multipart/form-data">
     @csrf
     <div
@@ -8,7 +9,8 @@
                 type="text"
                 class="form-input"
                 placeholder="Name"
-                id="contact_name"
+                name="name"
+                value=""
             />
         </div>
         <div class="w-full">
@@ -16,25 +18,37 @@
                 type="email"
                 class="form-input"
                 placeholder="Email"
-                id="contact_email"
+                name="email"
+                value=""
             />
         </div>
     </div>
-    <div class="grid grid-cols-1 gap-5 pt-4 md:grid-cols-2 md:pt-6">
+    <div class="grid grid-cols-1 gap-5 pt-4 md:grid-cols-3 md:pt-6">
         <div class="w-full">
             <input
                 type="tel"
                 class="form-input"
                 placeholder="Phone"
-                id="contact_phone"
+                name="phone"
+                value=""
             />
         </div>
         <div class="w-full">
             <input
                 type="text"
                 class="form-input"
-                placeholder="Address"
-                id="contact_address"
+                placeholder="City"
+                name="city"
+                value=""
+            />
+        </div>
+        <div class="w-full">
+            <input
+                type="text"
+                class="form-input"
+                placeholder="State"
+                name="state"
+                value=""
             />
         </div>
     </div>
@@ -42,7 +56,8 @@
           <textarea
               class="form-textarea h-48"
               placeholder="Description"
-              id="contact_message"
+              name="message"
+              value=""
           ></textarea>
     </div>
     <button

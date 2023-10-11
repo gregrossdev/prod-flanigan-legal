@@ -15,17 +15,18 @@ class ContactController extends Controller
 
     public function sendEmail(Request $request)
     {
-        $details = [
+        $data = array(
             'name' => $request->name,
             'email' => $request->email,
             'phone' => $request->phone,
-            'address' => $request->address,
+            'city' => $request->city,
+            'state' => $request->state,
             'message' => $request->message,
-        ];
+        );
 
 //
-//        Mail::to('gregross.dev@gmail.com')->send(new ContactMail($details));
-        Mail::to('info@flaniganlegal.com')->send(new ContactMail($details));
+//        Mail::to('gregross.dev@gmail.com')->send(new ContactMail($data));
+        Mail::to('info@flaniganlegal.com')->send(new ContactMail($data));
         return back()->with('message_sent', 'Your message has been sent successfully!');
     }
 }
